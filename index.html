@@ -146,11 +146,13 @@
                     <pre class="fragment fade-up"><code data-trim data-noescape>git status</code></pre>
                     <pre class="fragment fade-up"><code data-trim data-noescape>git add</code></pre>
                     <pre class="fragment fade-up"><code data-trim data-noescape>.gitignore</code></pre>
+                    <pre class="fragment fade-up"><code data-trim data-noescape>git rm</code></pre>
                 </section>
 
                 <!--Slide-->
                 <section data-background="images/Background1920R.jpg">
                     <h3 style="text-align: center;">Monitorando arquivos no repositório</h3>
+                    <p style="text-align: left; font-size: 30px; margin-left: 110px">Exemplo de um arquivo .gitignore</p>
                     <pre class="fragment fade-up"><code data-trim data-noescape>
                         /vendor
                         /node_modules
@@ -162,6 +164,27 @@
                         *.log
                     </code></pre>
                 </section>
+
+                <!--Slide-->
+                <section data-background="images/Background1920R.jpg">
+                    <h3 style="text-align: center;">Salvando alterações</h3>
+                    <p class="fragment fade-up" style="text-align: left; font-size: 30px; margin-left: 110px">Commitando suas alterações:</p>
+                    <pre class="fragment fade-up"><code data-trim data-noescape>git commit</code></pre>
+                    <p class="fragment fade-up" style="text-align: left; font-size: 30px; margin-left: 110px">Visualizando o histórico de commits:</p>
+                    <pre class="fragment fade-up"><code data-trim data-noescape>git log</code></pre>
+                </section>
+
+                <!--Slide-->
+                <section data-background="images/Background1920R.jpg">
+                    <h3 style="text-align: center;">Desfazendo coisas</h3>
+                    <p class="fragment fade-up" style="text-align: left; font-size: 30px; margin-left: 110px">Esqueceu de algo ?</p>
+                    <pre class="fragment fade-up"><code data-trim data-noescape>git commit --amend</code></pre>
+                    <p class="fragment fade-up" style="text-align: left; font-size: 30px; margin-left: 110px">Tirar da seleção ?</p>
+                    <pre class="fragment fade-up"><code data-trim data-noescape>git reset <i>file</i></code></pre>
+                    <p class="fragment fade-up" style="text-align: left; font-size: 30px; margin-left: 110px">Descartar alterações ?</p>
+                    <pre class="fragment fade-up"><code data-trim data-noescape>git checkout -- <i>file</i></code></pre>
+                </section>
+
             </div>
         </div>
     </body>
@@ -198,10 +221,10 @@
             transitionSpeed: 'default',
             backgroundTransition: 'default',
             viewDistance: 3,
-            parallaxBackgroundImage: 'images/Background_1600.jpg',
-            parallaxBackgroundSize: '1600px 900px',
-            parallaxBackgroundHorizontal: 0,
-            parallaxBackgroundVertical: 0,
+            parallaxBackgroundImage: '',
+            parallaxBackgroundSize: '',
+            parallaxBackgroundHorizontal: null,
+            parallaxBackgroundVertical: null,
             width: 1366,
             height: 768,
             margin: 0.1,
